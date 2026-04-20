@@ -13,6 +13,15 @@ public class Produk {
             this.stok = stok;
         }
 
+        public double getHarga() {
+            return harga;
+        }
+        public int getStok() {
+            return stok;
+        }
+        public String getNama() {
+            return nama;
+
 
         public void tampilkanInfo() {
             System.out.println("Nama Produk: " + nama);
