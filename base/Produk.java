@@ -21,6 +21,10 @@ public class Produk {
         }
         public String getNama() {
             return nama;
+        }
+        public void setStok(int stok) {
+            this.stok = stok;
+        }
 
 
         public void tampilkanInfo() {
